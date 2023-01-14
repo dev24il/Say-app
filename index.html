@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Say App</title>
+  </head>
+  <body>
+    <h1 class="ml1">
+      <span class="text-wrapper">
+        <span class="line line1"></span>
+        <span class="letters">Welcome to the Say App!</span>
+        <span class="line line2"></span>
+      </span>
+    </h1>
+
+    <form action="/" method="post">
+      <label>Enter the word you want to spell:</label><br />
+      <textarea name="text" class="text" cols="30" rows="1"></textarea>
+      <button type="submit" class="btn">Say</button>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
